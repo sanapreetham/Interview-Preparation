@@ -1,0 +1,12 @@
+4/20/2025
+
+STATELESS ARCHITECTURE:
+
+To expand the web tier we need to separate the session data from the web servers to persistent storage, like NO SQL, Relational Databases, Redis DB(confirm about this). So that when a user send a request there is no need to send to route that request to a particular web-server where the users session data is stored, any web server can pick that request and get the session data from persistent storage.
+
+This will help to horizontally expand the servers and allow to do more business globally.
+
+
+NO-SQL is used as it has the capability to expand more easily.
+
+
