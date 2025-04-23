@@ -6,7 +6,7 @@
 import java.util.Set;
 import java.util.HashSet;
 
-class Solution {
+class RemoveDuplicatesFromSortedArray {
     public int removeDuplicates(int[] nums) {
        // Find the unique elements and place them in the first and duplicate elements in 
        //the last and return the length of unique list by incrementing a variable
@@ -32,7 +32,7 @@ class Solution {
 
     public static void Main(String args[])
     {
-        Solution solution = new Solution();
+        RemoveDuplicatesFromSortedArray solution = new RemoveDuplicatesFromSortedArray();
         int[] nums = {1, 1, 2};
         int result = solution.removeDuplicates(nums);
         System.out.println(result); // Output: 2

@@ -8,7 +8,7 @@
 // nums[(i+1)%nums.length] - is used to handle the circular nature of the array, where the last element wraps around to the first element.
 // The modulo operator (%) is used to ensure that the index wraps around when it reaches the end of the array.
 
-class Solution {
+class ArraySortedRotatedCheck {
     public boolean check(int[] nums) {
 
         int rotationalPoint = 0;
@@ -22,7 +22,7 @@ class Solution {
     }
 
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        ArraySortedRotatedCheck solution = new ArraySortedRotatedCheck();
         int[] nums = { 3, 4, 5, 1, 2 };
         boolean result = solution.check(nums);
         System.out.println(result); // Output: true

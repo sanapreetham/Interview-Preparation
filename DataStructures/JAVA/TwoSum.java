@@ -6,12 +6,11 @@
 // When we find a number that, when added to the current number, equals the target, we return the indices. O(1) lookup time for HashMap.
 import java.util.Arrays;
 import java.util.HashMap;
-
-class Solution 
+class TwoSum 
 {
     public static void main(String[] args) 
     {
-        Solution solution = new Solution();
+        TwoSum solution = new TwoSum();
         int[] nums = {2, 7, 11, 15};
         int target = 9;
         int[] result = solution.twoSum(nums, target);
